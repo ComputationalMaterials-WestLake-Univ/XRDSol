@@ -40,19 +40,26 @@ We employed the MP-20 dataset (45231 structures) to train our equivariant diffus
 Find more about these datasets by going to our [Datasets_mp_20]("data/mp_20) page.
 
 ## Usage
-### evalution:
+### train:
 
-To solve the V–Nb–Mn dataset, run the following command:
+To tain the MP-20 dataset, run the following command:
 
 ```
-python phasemapy/scripts_V_Nb_Mn_O/solver_V-Nb-Mn.py
+python xrdsol/run.py data=mp_20 expname=mp_20
+```
+### evalution:
+
+To evalute the MP-20 test dataset, run the following command:
+
+```
+python scripts/evalution.py --model_path<model_path> --dataset <dataset> --num_evals <run_times>
 ```
 ### solution:
 
-To solve the Bi-Cu-V dataset, run the following command:
+To solve the crystal structures from PXRD, run the following command:
 
 ```
-python phasemapy/scripts_Bi_Cu_V_O/solver_Bi_Cu_V.py
+python scripts/solution.py --model_path<model_path> --dataset <dataset> --num_evals <run_times>
 ```
 
 

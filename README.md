@@ -11,7 +11,7 @@ Its main functionalities:
 
 
 <p align="center">
-  <img src="phasemapy/Overview of AutoMapper.svg" /> 
+  <img src="phasemapy/figures\overview of xrdsol.jpg" /> 
 </p>
 
 
@@ -24,14 +24,24 @@ Its main functionalities:
 - [Citation](#citation)
 - [Contact](#contact)
 
-## Installation
+## Dependencies
 
-
-Run the following command to install the environment:
 ```
-pip install -r requirements.txt
+python==3.8.11
+scioy == 1.10.1
+wandb==0.10.33
+torch==1.9.0
+torch-geometric==1.7.2
+pytorch_lightning==1.3.8
+hydra-core==1.1.0
+pymatgen==2023.5.10
 ```
-
+Rename the .env.template file into .env and add your file path.
+```
+PROJECT_ROOT: your project' file path
+HYDRA_JOBS: your hydra' file path
+WABDB_DIR: your wabdb' file path
+```
 
 ## Datasets
 

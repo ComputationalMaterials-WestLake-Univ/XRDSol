@@ -40,7 +40,7 @@ Rename the .env.template file into .env and add your file path.
 ```
 PROJECT_ROOT: your project' file path
 HYDRA_JOBS: your hydra' file path
-WABDB_DIR: your wabdb' file path
+WABDB_DIR: your wandb' file path
 ```
 
 ## Datasets

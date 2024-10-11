@@ -21,7 +21,7 @@ Its main functionalities:
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Dependencies](#Dependencies)
 - [Datasets](#datasets)
 - [Usage](#usage)
 - [Citation](#citation)

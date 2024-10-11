@@ -11,9 +11,12 @@ Its main functionalities:
 
 
 <p align="center">
-  <img src="phasemapy/figures\overview of xrdsol.jpg" /> 
+  <img src="figures\overview of xrdsol.jpg" /> 
 </p>
 
+<p align="center">
+  <img src="figures\solution_demo.gif" width="600">
+</p>
 
 
 ## Table of Contents
@@ -62,7 +65,7 @@ python xrdsol/run.py data=mp_20 expname=mp_20
 To evalute the MP-20 test dataset, run the following command:
 
 ```
-python scripts/evaluate.py --model_path<model_path> --dataset <dataset> --num_evals <run_times>
+python scripts/evaluate.py --model_path<model_path> --dataset mp_20 --num_evals <run_times>
 ```
 ### solution:
 

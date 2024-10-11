@@ -62,7 +62,7 @@ python xrdsol/run.py data=mp_20 expname=mp_20
 To evalute the MP-20 test dataset, run the following command:
 
 ```
-python scripts/evalution.py --model_path<model_path> --dataset <dataset> --num_evals <run_times>
+python scripts/evaluate.py --model_path<model_path> --dataset <dataset> --num_evals <run_times>
 ```
 ### solution:
 

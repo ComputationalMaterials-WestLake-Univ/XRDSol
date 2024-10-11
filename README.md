@@ -1,7 +1,7 @@
  
 # Equivariant Diffusion Crystal Structure Solution from Powder X-ray Diffraction (XRDSol)
 
-The AutoMapper is a equivariant diffusion model to solve crystalline structures by iteratively refining atom coordinates from powder XRD. XRDSol has solved thousands of entries that were previously unresolved or unlabeled. Compared to prior methods, the solving efficiency of XRDSol (0.6 seconds per solution) is more than 104‒105 times. Furthermore, we have addressed critical challenges in crystal structure solutions, such as light-element materials, natural minerals, and disordered structures. Additionally, XRDSol has corrected 39 long-standing unplausible crystal structures from the past several decades. 
+The XRDSol is a equivariant diffusion model to solve crystalline structures by iteratively refining atom coordinates from powder XRD. XRDSol has solved thousands of entries that were previously unresolved or unlabeled. Compared to prior methods, the solving efficiency of XRDSol (0.6 seconds per solution) is more than 10,000 ‒100,000 times. Furthermore, we have addressed critical challenges in crystal structure solutions, such as light-element materials, natural minerals, and disordered structures. Additionally, XRDSol has corrected 39 long-standing erroneous crystal structures from the past several decades. 
 
 Its main functionalities:
 

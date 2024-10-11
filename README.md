@@ -31,7 +31,7 @@ Its main functionalities:
 
 ```
 python==3.8.11
-scioy == 1.10.1
+scipy == 1.10.1
 wandb==0.10.33
 torch==1.9.0
 torch-geometric==1.7.2

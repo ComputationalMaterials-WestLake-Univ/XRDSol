@@ -50,7 +50,6 @@ WABDB_DIR: your wandb' file path
 
 We employed the MP-20 dataset (45231 structures) to train our equivariant diffusion model.
 
-Find more about these datasets by going to our [Datasets_mp_20]("data/mp_20) page.
 
 ## Usage
 ### train:
